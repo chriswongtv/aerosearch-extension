@@ -1,0 +1,11 @@
+{
+  "name": "AeroSearch",
+  "description": "Flight search using images",
+  "version": "0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "persistent": false,
+    "scripts": ["aerosearch.js"]
+  },
+  "manifest_version": 2
+}
