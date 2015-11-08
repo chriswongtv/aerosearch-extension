@@ -5,7 +5,7 @@
 // The onClicked callback function.
 function onClickHandler(info, tab) {
   console.log(encodeURIComponent(info.srcUrl));
-  var _url = 'http://localhost:3000/confirm?url=' + encodeURIComponent(info.srcUrl);
+  var _url = 'http://aerosearch.elasticbeanstalk.com/confirm?url=' + encodeURIComponent(info.srcUrl);
   chrome.tabs.create({ url: _url });
 };
 
